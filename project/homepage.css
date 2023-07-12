@@ -1,0 +1,61 @@
+.welcome {
+    width: 80%;
+    height: fit-content;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.welcome h1 {
+    font-size: 80px;
+}
+
+.welcome p {
+    font-size: 20px;
+}
+
+.welcome button {
+    font-size: 17px;
+    margin-top: 20px;
+    color: white;
+    background-color: black;
+    border: none;
+    width: 150px;
+    height: 40px;
+    border-radius: 10px;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.welcome button:hover {
+    background-color: red;
+}
+
+.calcs {
+    margin-top: 15px;
+    width: 80%;
+    height: fit-content;
+    display: none;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    gap: 10px;
+}
+
+.calcs button {
+    background-color: white;
+    font-size: 17px;
+    color: black;
+    border: none;
+    width: fit-content;
+    border: 2px black solid;
+    border-radius: 6px;
+    transition: background-color 0.3s ease-in-out;
+    padding: 10px;
+}
+
+.calcs button:hover {
+    background-color: red;
+    color: white;
+}
