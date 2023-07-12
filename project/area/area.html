@@ -6,6 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Area calculator</title>
     <link rel="stylesheet" href="../general.css">
+    <link rel="stylesheet" href="area.css">
+    <script src="area.js" defer></script>
 </head>
 
 <body>
@@ -21,7 +23,26 @@
         </ul>
     </header>
     <div class="home_container">
+        <h1>Rectangle Area Calculator</h1>
+        <div class="container">
+            <div class="operations">
+                <label for="height">Height:</label><br>
+                <input type="number" id="height"><br>
 
+                <label for="width">Width:</label><br>
+                <input type="number" id="width"><br>
+                <button id="button">calculate</button>
+
+                <div class="answer-box">
+                    <p>Answer</p>
+                    <h1 id="answer">0</h1>
+                </div>
+            </div>
+            <div class="descriptor">
+                <h3>Project Description</h3>
+                <p>This web page helps you calculate the area of a Rectangle</p>
+            </div>
+        </div>
     </div>
     <footer>Julliard Business School - 2023</footer>
 </body>
