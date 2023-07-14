@@ -1,0 +1,133 @@
+.container {
+    place-items: center;
+    background-color: #ffffff;
+    border-radius: 10px;
+    border: 2px solid #190975;
+    width: 500px;
+    height: fit-content;
+    padding: 60px 40px;
+    margin: 40px;
+    color: black;
+    font-size: 16px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-around;
+    color: black;
+    text-align: center;
+}
+
+.outer_container {
+    border: 1px solid #ffffff;
+    display: flex;
+    flex: 1;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    align-items: flex-start;
+    max-width: 100%;
+    height: 100%;
+    /* padding: 20px; */
+    /* padding-bottom: 80px; */
+    border-radius: 7px;
+    align-content: start;
+    align-items: start;
+    text-align: center;
+}
+
+.inner_container {
+    width: 400px;
+    height: auto;
+    padding: 0;
+    margin: 0;
+}
+
+.temp_text,
+.label,
+.twin_box {
+    border: 1px solid grey;
+}
+
+.temp_text,
+.label {
+    display: flex;
+    text-align: start;
+    align-items: center;
+    background-color: #ffffff;
+    height: 30px;
+    padding-left: 10px;
+    text-align: center;
+    font-size: 17px;
+    text-align: center;
+}
+
+.temp_text {
+    max-width: 100%;
+}
+
+.temp_text:hover,
+.label:hover {
+    background-color: rgb(255, 255, 255);
+}
+
+
+.twin_mother {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    text-align: center;
+}
+
+.twin_box {
+    flex-basis: 45%;
+    max-width: 45%;
+    height: 45%;
+    border-radius: 2px;
+    text-align: center;
+    font-size: 17px;
+}
+
+.equal_to {
+    flex-basis: 10%;
+    font-size: 18px;
+    color: black;
+    display: inline;
+    font-size: large;
+}
+
+.label {
+    color: black;
+    border-left: none;
+    border-right: none;
+    font-size: 17px;
+    text-align: center;
+}
+
+.result {
+    border: none;
+    outline: none;
+    height: 35px;
+    padding: 5px;
+    max-width: 95%;
+    font-size: 30px;
+    text-align: center;
+    background-color: transparent;
+    color: black;
+}
+
+.result::-webkit-inner-spin-button,
+.result::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+.descriptor {
+    font-size: 17px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    flex-direction: column;
+}

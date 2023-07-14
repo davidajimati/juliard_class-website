@@ -6,6 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Square root calculator</title>
     <link rel="stylesheet" href="../general.css">
+    <link rel="stylesheet" href="square-root.css">
+    <script src="square-root.js" defer></script>
 </head>
 
 <body>
@@ -21,7 +23,23 @@
         </ul>
     </header>
     <div class="home_container">
+        <h1>Square root Calculator</h1>
+        <div class="container">
+            <div class="operations">
+                <label for="width">Enter number</label><br>
+                <input type="number" id="width"><br>
+                <button id="button">calculate</button>
 
+                <div class="answer-box">
+                    <p>Answer</p>
+                    <h1 id="answer">0</h1>
+                </div>
+            </div>
+            <div class="descriptor">
+                <h3>Project Description</h3>
+                <p>This web page helps you calculate the Hypotenuse of a right angled triangle</p>
+            </div>
+        </div>
     </div>
     <footer>Julliard Business School - 2023</footer>
 </body>
